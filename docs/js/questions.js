@@ -95,11 +95,11 @@ const questions = {
     question: "電子連載or紙媒体",
     choices:[{
       value:"電子連載",
-      image:"origin.png",
+      image:"電子連載.jpg",
       nextId:"0100",
     },{
       value:"紙媒体",
-      image:"origin.png",
+      image:"紙媒体.jpg",
       nextId:"結果紙媒体",
     }]
   },
@@ -114,6 +114,10 @@ const questions = {
       value:"見知らぬ女子高生に監禁された漫画家の話", //TODO:あらすじを選択肢にしてもよいのでは
       image:"ラブコメ→見知らぬ女子高生に監禁された漫画家の話.jpg",
       nextId:"結果ラブコメ見知らぬ",
+    },{
+      value:"魁の花巫女", //TODO:あらすじを選択肢にしてもよいのでは
+      image:"ラブコメ→C魁の花巫女.jpg",
+      nextId:"結果魁の花巫女",
     }]
   },
   "0001":{
@@ -224,5 +228,11 @@ const questions = {
     url: "https://slist.amiami.jp/top/search/list?s_keywords=%E3%81%8D%E3%81%9F%E3%81%A0%E3%82%8A%E3%82%87%E3%81%86%E3%81%BE&pagemax=60&s_cate_tag=1",
     image: "フィギュア.jpg",
     message: "フィギュア",
+  },
+  "結果魁の花巫女":{
+    type:"result",
+    url: "https://pocket.shonenmagazine.com/episode/2550689798798682152",
+    image: "ラブコメ→C魁の花巫女.jpg",
+    message: "魁の花巫女",
   },
 };
