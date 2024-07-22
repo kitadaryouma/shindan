@@ -107,15 +107,15 @@ const questions = {
     type:"question",
     question: "気になるタイトル",
     choices:[{
-      value:"ユメオチ〜ユメで僕らは恋にオチる〜", //TODO:あらすじを選択肢にしてもよいのでは
+      value:"ユメオチ〜ユメで僕らは恋にオチる〜",
       image:"ユメオチ.jpg",
       nextId:"結果ユメオチ",
     },{
-      value:"見知らぬ女子高生に監禁された漫画家の話", //TODO:あらすじを選択肢にしてもよいのでは
+      value:"見知らぬ女子高生に監禁された漫画家の話",
       image:"ラブコメ→見知らぬ女子高生に監禁された漫画家の話.jpg",
       nextId:"結果ラブコメ見知らぬ",
     },{
-      value:"魁の花巫女", //TODO:あらすじを選択肢にしてもよいのでは
+      value:"魁の花巫女",
       image:"ラブコメ→C魁の花巫女.jpg",
       nextId:"結果魁の花巫女",
     }]
@@ -124,11 +124,11 @@ const questions = {
     type:"question",
     question: "気になるタイトル",
     choices:[{
-      value:"ド級編隊エグゼロス", //TODO:あらすじを選択肢にしてもよいのでは
+      value:"ド級編隊エグゼロス",
       image:"ド級編隊エグゼロス.jpg",
       nextId:"結果ド級",
     },{
-      value:"μ&i みゅうあんどあい", //TODO:あらすじを選択肢にしてもよいのでは
+      value:"μ&i みゅうあんどあい",
       image:"μ＆i.jpg",
       nextId:"結果みゅう",
     }]
